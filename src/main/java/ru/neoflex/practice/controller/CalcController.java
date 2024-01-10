@@ -12,7 +12,7 @@ public class CalcController {
         return (a + b);
     }
     @GetMapping("/minus/{a}/{b}")
-    public int minus ( @PathVariable int a, @PathVariable int b){
+    public int minus ( @PathVariable int a, @PathVariable int b) {
         return (a - b);
     }
 }
